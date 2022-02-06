@@ -1,2 +1,47 @@
+Mali Randolph, Mod Two Project
 education.txt
 education.txt
+
+Once I completed this I realized the script was requested :(. I pushed a lot 
+of buttons to get the first lines in there, and I'm afraid to do more damage 
+(I keep getting messages indicating that I'm almost out of storage). Anyways,
+I hope explaining what I did will be somewhat sufficient.
+
+First, I downloaded, unzipped, and archived your log.csv file by entering,
+
+curl -s -L https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=0 
+modtwostc510.tar.gz
+
+I made sure to include -L as I was gathering something from a dropbox
+and wanted to bypass the extra clicks - it was a "link forwarder". Next,
+
+tar -xvzf modtwostc510.tar.gz
+
+which extracted the file log.csv
+
+I was looking for a file named,  "education, something-something,
+ dot tee-ex-tee." so I used grep to search within the file.
+
+grep 'education[a-z]*.txt' log.csv
+
+The lines were a bit execessive and I wanted everything to be
+neatly listed. I also wanted to add the lines to a text file.
+
+grep -o 'education[a-z]*txt' log.csv > modtwostc510.txt
+
+Now, I needed to add this to my repository that I created on
+Github named "STC510". I switched over to the repository by
+imputting, 
+
+cd STC510
+
+Once there, I added the file to the repository and added my
+name and a title.
+
+nano STC510
+
+"Mali Randolph, Module Two"
+
+^X then "return/enter"
+
+fast forward and now we're here :)
