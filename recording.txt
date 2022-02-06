@@ -1,0 +1,69 @@
+Script started on Sat Feb  5 23:33:14 2022
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/malirandolph[0m[27m[24m[J(base) malirandolph@MacBook-Air ~ % [K[?2004heexec bash[?2004l
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ cd git
+bash: cd: git: No such file or directory
+bash-3.2$ cd STC510
+bash-3.2$ ls
+LICENSE			mod.tar.gz		modtwostc510.txt
+README.md		modtwo.tar.gz
+hello.py		modtwo.txt
+bash-3.2$ nano modtwostc510.txt
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.0.6            File: modtwostc510.txt                              [3;1H(B[mMali Randolph, Mod Two Project[4deducation.txt[5deducation.txt[22;33H(B[0;7m[ Read 3 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[6d[1;71H(B[0;7mModified[7d(B[mOnce I completed thi[22d[K[7;21Hs I realized the script was fr  requested :(. I pushed a lot o$lot of[K bOnce I completed this I realized the script was requested :(. I pushed a lot of$[7;79Hot o$lot of b[KOnce I completed this I realized the script was requested :(. I pushed a lot of$[7;79Ht [K[8dof bof buttons  to get the first lines in there, and I 'm afraid to do more dm amage ($age ()[Kof buttons to get the first lines in there, and I'm afraid to do more damage ()[K[9d()(I) )j))[Kk)e)ee)p) )g)e)t)tt)i)n)g) )m)e)s)ss)a)g)e)s) )i)n)i))[Kd)i)c)a)t)i)n)g) )t)h)a)t) )I)')m) )a)l)m)o)s)t) )o)u)t) )o)f) )s)t)o)r)a)g)e)). Anyways,[10dI hope explaining what I did will be somewha t suffiecie   c  cient.[11d[12dFirst, I downloaded, unzipped, and archived your log.csv file by entering,[13d[14dcurl -s -L https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=0 modtwo.cs   stc$wostc5[K10  curl -s -L https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=0 modtwostc         [15dmodtwostc510.txt   tar.gz[16d[17dI made sure to include -L as I was gathering something from a dropbox[18dand wanted to bypass t6he  h  he extra clicks as  - it was a lin   "link forwarder"[19d[20dt[KN[K[A[18;66H. Next,[19d[20d-t [Ktae r -xvzf s modto wostc510.tx ar, .gz[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12dwhich extracted the file log.csv[13d[14dI was looking for a filen  named, $-ex-tee.[KI was looking for a file named,  'education, something-something, dot tee-ex-te$[14;79H [K[15d dot tee-ex-tee.[AI was looking for a file named,  '[1P"education, something-something,[14;35H[15;17H" So   so U I used grep to search within the file.[16d[17dgrep 'education[a-z]*.txt' log.csv[18d[19dThe lines were a bit execessive and I wanted everything to be[20dlisted n      [Kneately   ly listed. I alwa  so wanted to add the lines to a text gile    file[21d[20;61H.[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12dgrep -o 'educato ion[a-z]*txt' log.csv > stc   md odtwostc510.txt[13d[14dNow, I needed to add this to my repository that I created on[15dGithub named "STC510". I copied the link t o my n public re  [16dreposity   tory and     and input the following,[17d[18dgit clone https://github.com/mrandolph95/STC510.git[19d[20dThen I made sure i I was in said repository,[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12dcd STC510[A[10;10H[A[8;10H[A[6;10H[A[A[A[2;22r[2;1H[9T[1;24r[3;1HI was looking for a file named,  "education, something-something,[4d dot tee-ex-tee." so I used grep to search within the file.[6dgrep 'education[a-z]*.txt' log.csv[8dThe lines were a bit execessive and I wanted everything to be[9dneatly listed. I also wanted to add the lines to a text file.[11dgrep -o 'education[a-z]*txt' log.csv > modtwostc510.txt[11;10H[A[9;10H[A[A[8;10H[9d[10d[11;10H[12d[13;10H[14d[15d[16d[17;10H[18d[18;22r[22;1H
+[1;24r[17;52H                                                [K[16;22r[22;1H
+[1;24r[16;1H[16;22r[22;1H
+[1;24r[15;36H                              [K[15;22r[22;1H
+[1;24r[14;55H                       switched over to the reposity ory by7[15;22r8[15dM[1;24r[15;1Hinputting, [16d sure I was in said repository,                                 [K[16;22r[22;1H
+[1;24r[15;12H[1Pmputting,im[16d[17dcd STC510[18d[19dOnce there  , e, I added the file o to the repository and added my[20dname and a title .[21d7[2;22r8[22d[10S[1;24r[12;1Hnano STC510[13d[14d"Mali Randolph, Module Tow  wo"[15d[16d^X ->   then "return/enter"[17d[18dfast forward and now we're here :)[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: modtwostc510.txt                        [23d^G(B[m Get Help[23;21H(B[0;7m^T(B[m To Files[23;41H(B[0;7mM-M(B[m Mac Format[61G(B[0;7mM-P(B[m Prepend[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[24;61H(B[0;7mM-B(B[m Backup File[22;37H[23d[39;49m(B[m[J[1;71H(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 47 lines ](B[m[K[24;80H[24;1H[?1049l[?1l>bash-3.2$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   modtwostc510.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.DS_Store[m
+	[31mmod.tar.gz[m
+	[31mmodtwo.tar.gz[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git commit [K[K[K[K[K[K[Kadd modtwostc510.txt
+bash-3.2$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   modtwostc510.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.DS_Store[m
+	[31mmod.tar.gz[m
+	[31mmodtwo.tar.gz[m
+
+bash-3.2$ git commit -m "Added description of process to add file to git for mod  t[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+bash-3.2$ git commit -m "Add process to git"."
+[main b100606] Add process to git.
+ 1 file changed, 45 insertions(+)
+bash-3.2$ git push
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 1024 bytes | 1024.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/mrandolph95/STC510.git
+   fd72241..b100606  main -> main
+bash-3.2$ exit
+exit
+
+Script done on Sun Feb  6 00:07:30 2022
